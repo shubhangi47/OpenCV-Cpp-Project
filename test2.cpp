@@ -56,7 +56,7 @@ void replayFrames(const std::vector<uchar> &encodedFrames)
 
 int main()
 {
-    std::string inputVideoFile = "/home/Videos/input_video.mp4";
+    std::string inputVideoFile = "/home/Videos/input_video.mp4";  // Add file path
     std::string outputBinaryFile = "encoded_frames.bin";
 
     std::vector<uchar> encodedFrames = captureVideoFrames(inputVideoFile);
